@@ -25,6 +25,8 @@ fetch('https://jsonplaceholder.typicode.com/users').then(res=>res.json()).then(r
     return (
      
       <div className="App">
+
+        <h1 className='monsterTitle'>Monsters Zone</h1>
           <SearchBox 
           placeholder='Search Monsters' 
           handleChange={this.handleChange}
